@@ -1,7 +1,17 @@
+body {
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 #container {
   display: grid;
   grid-template-rows: 50px 1fr 200px;
   grid-template-columns: 120px 1fr;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 #left {
   background-color: green;
